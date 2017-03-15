@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-    "start": "webpack && node server.js"
+    "start": "node server.js"
   },
   "author": "Evan",
   "license": "MIT",
