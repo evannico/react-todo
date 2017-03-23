@@ -10,7 +10,7 @@ export var AddTodo = React.createClass({
     var {dispatch} = this.props;
     var todo = this.refs.todo.value;
     if(todo !== '') {
-      dispatch(actions.addTodo(todo));
+      dispatch(actions.startAddTodo(todo));
       this.refs.todo.value = '';
     } else {
       this.refs.todo.focus();
