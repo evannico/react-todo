@@ -3,3 +3,4 @@ example-arrow-functions.js
 example-promise.js
 npm-debug.log
 playground/
+public/bundle.js
