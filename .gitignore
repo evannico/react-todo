@@ -4,3 +4,4 @@ example-promise.js
 npm-debug.log
 playground/
 public/bundle.js
+config/
